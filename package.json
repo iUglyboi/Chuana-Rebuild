@@ -1,19 +1,37 @@
 {
   "name": "chuana-rebuild",
   "version": "1.0.0",
-  "description": "",
+  "description": "Git Flow",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iUglyboi/Chuana-Rebuild.git"
+    "url": "git+https://github.com/iUglyboi/chuana-rebuild.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iUglyboi/Chuana-Rebuild/issues"
+    "url": "https://github.com/iUglyboi/chuana-rebuild/issues"
   },
-  "homepage": "https://github.com/iUglyboi/Chuana-Rebuild#readme"
+  "homepage": "https://github.com/iUglyboi/chuana-rebuild#readme",
+  "dependencies": {
+    "@types/next": "^9.0.0",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "^9.4.4",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "typescript": "^3.9.3"
+  }
 }
